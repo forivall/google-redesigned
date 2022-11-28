@@ -90,7 +90,7 @@
 	/* Google keeps changing the class name for the header, so
 		* to prevent it from breaking. This specific descended
 		* selector is used */
-	header > div {
+	header[style*="background-color: rgb(255, 255, 255)"], header > div {
 		background: var(--GR4) !important;
 		color: var(--GR17) !important;
 	}
